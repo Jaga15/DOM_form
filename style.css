@@ -1,0 +1,39 @@
+*{
+    font-size: 20px;
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+
+#head{
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+#thead{
+    font-weight: bold;
+}
+#gender,#food{
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+#table,tr,thead{
+    border: 3px solid;
+}
+#btn,#form,#fname,#lname,#address,#state,#pincode,#country,#food{
+    width:100%;
+}
+#form{
+    height:auto;
+    background-color: rgb(75, 223, 243);
+}
+#b2{
+    background-color: rgb(236, 196, 95);
+}
+#btn{
+    background-color: rgb(243, 96, 76);
+}
+#content,#food,#gender{
+    font-weight: 700;
+}
